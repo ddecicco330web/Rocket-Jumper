@@ -40,7 +40,9 @@ The structural organization of the engine takes inspiration from foundational li
 
 ---
 
-<h2 id="tech-stack">🛠️ Tech Stack</h2>
+<div id="tech-stack"></div>
+
+## 🛠️ Tech Stack
 
 - **Language:** C++17
 - **Framework & Window Wrapper:** [SFML 3.0](https://www.sfml-dev.org/) (Simple and Fast Multimedia Library)
