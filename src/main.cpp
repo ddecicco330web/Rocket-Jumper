@@ -1,21 +1,21 @@
-#include <SFML/Graphics.hpp>
+//#define _CRTDBG_MAP_ALLOC
+
+#include "Subsystems/Headers/RenderManager.hpp"
+#include "Subsystems/Headers/GameManager.hpp"
+
+RenderManager gRenderManager;
+GameManager gGameManager;
 
 int main()
 {
-	sf::RenderWindow window( sf::VideoMode( { 1280, 720 } ), "SFML works!" );
-	sf::CircleShape shape( 100.f );
-	shape.setFillColor( sf::Color::Green );
+	//_CrtSetDbgFlag(_CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF);
+	
+	// Start up subsystems
+	gRenderManager.startup();
 
-	while ( window.isOpen() )
-	{
-		while ( const std::optional event = window.pollEvent() )
-		{
-			if ( event->is<sf::Event::Closed>() )
-				window.close();
-		}
+	// Run the main game loop
+	gGameManager.run();
 
-		window.clear();
-		window.draw( shape );
-		window.display();
-	}
+	// Shut down subsystems
+	gRenderManager.shutdown();
 }
