@@ -8,7 +8,7 @@ Rocket-Jumper is a custom, data-driven 2D game engine built from scratch in C++ 
 1. [Project Description](#-project-description)
 2. [Key Features](#-key-features)
 3. [Architecture & Patterns Used](#-architecture--patterns-used)
-4. [Tech Stack](#-tech-stack)
+4. [Tech Stack](#tech-stack)
 6. [Future Roadmaps & Implementations](#-future-roadmaps--implementations)
 7. [Credits & References](#-credits--references)
 
@@ -40,7 +40,7 @@ The structural organization of the engine takes inspiration from foundational li
 
 ---
 
-## 🛠️ Tech Stack
+<h2 id="tech-stack">🛠️ Tech Stack</h2>
 
 - **Language:** C++17
 - **Framework & Window Wrapper:** [SFML 3.0](https://www.sfml-dev.org/) (Simple and Fast Multimedia Library)
