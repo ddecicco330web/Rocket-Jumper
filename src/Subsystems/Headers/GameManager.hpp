@@ -1,5 +1,6 @@
 #include "../Headers/RenderManager.hpp"
 
+
 class GameManager
 {
 public:

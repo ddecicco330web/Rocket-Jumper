@@ -10,7 +10,7 @@ void RenderManager::shutdown()
 	window.close();
 }
 
-void RenderManager::render()
+void RenderManager::render(double alpha)
 {
 	sf::CircleShape shape(100.f);
 	shape.setFillColor(sf::Color::Green);

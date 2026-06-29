@@ -10,7 +10,7 @@ public:
 	~RenderManager() = default;
 	void startup();
 	void shutdown();
-	void render();
+	void render(double alpha);
 };
 
 extern RenderManager gRenderManager;
