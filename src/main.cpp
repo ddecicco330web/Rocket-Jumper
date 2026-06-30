@@ -1,7 +1,7 @@
 //#define _CRTDBG_MAP_ALLOC
 
 #include "Subsystems/Headers/RenderManager.hpp"
-#include "Subsystems/Headers/GameManager.hpp"
+#include "Subsystems/GameManager/GameManager.h"
 
 RenderManager gRenderManager;
 GameManager gGameManager;

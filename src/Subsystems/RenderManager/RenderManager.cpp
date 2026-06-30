@@ -1,4 +1,4 @@
-#include "../Headers/RenderManager.hpp"
+#include "RenderManager.h"
 
 void RenderManager::startup()
 {

@@ -1,4 +1,5 @@
-#include "../Headers/RenderManager.hpp"
+#pragma once
+#include "../RenderManager/RenderManager.h"
 
 
 class GameManager

@@ -12,7 +12,7 @@ FetchContent_Declare(SFML
     SYSTEM)
 FetchContent_MakeAvailable(SFML)
 
-add_executable(main src/main.cpp "src/Subsystems/Source/RenderManager.cpp" "src/Subsystems/Source/GameManager.cpp")
+add_executable(main src/main.cpp "src/Subsystems/RenderManager/RenderManager.cpp" "src/Subsystems/GameManager/GameManager.cpp" "src/Entities/Entity/Entity.cpp")
 target_compile_features(main PRIVATE cxx_std_17)
 target_link_libraries(main PRIVATE SFML::Graphics)
 
