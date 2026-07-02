@@ -54,11 +54,12 @@ The structural organization of the engine takes inspiration from foundational li
 
 ## 📡 Future Roadmaps & Implementations
 
-- Implement the State Pattern to handle refined player mechanics (Wall jump).
+- Implement the State Pattern to handle refined player mechanics.
 - Implement the Command Pattern to map input actions to physical keyboard events flexibly.
 - Incorporate custom sprite-sheet parsing for frame-by-frame 2D texture animation.
 - Transition from raw memory allocation tracking to std::unique_ptr smart-pointer lifecycle safety.
 - Implement my own rendering pipeline
+- Implement ECS
 
 ---
 
